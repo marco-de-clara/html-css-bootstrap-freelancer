@@ -1,0 +1,87 @@
+body {
+    color: #ffffff;
+    padding-top: 111px;
+    font-size: 10px;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-bg {
+    background-color: #313e4f;
+}
+
+.main-bg {
+    padding: 100px 0;
+    background-color: #66ba9e;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.pl {
+    padding-left: 50px;
+}
+
+.navbar ul li a:hover {
+    color: #1abc9c;
+    background-color: #313e4f;
+}
+
+.nav-text {
+    font-size: 1.4rem;
+}
+
+#avatar {
+    padding-bottom: 50px;
+    width: calc((100% / 12) * 5);
+}
+
+.monts-main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 5.5rem;
+    line-height: 3.5rem;
+}
+
+#star-section {
+    padding: 30px 0 30px 45px;
+}
+
+#star {
+    float: left;
+    font-size: 30px;
+}
+
+.padding-line {
+    float: left;
+    padding: 15px 0;
+}
+
+.line {
+    margin: 0 10px;
+    border: 2px solid #ffffff;
+    height: 4px;
+    width: 112px;
+    border-radius: 5px;
+}
+
+.lato-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
