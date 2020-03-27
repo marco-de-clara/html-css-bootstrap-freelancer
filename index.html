@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Freelancer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/3d747d6b6d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700&display=swap" rel="stylesheet">
@@ -15,7 +16,13 @@
                     <div class="col-lg-4">
                         <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
                     </div>
-                    <div class="col-lg-4 col-lg-offset-4">
+                    <div class="col-sm-4 col-sm-offset-4 visible-xs visible-sm">
+                        <a class="btn btn-default pull-right btn-stats text-uppercase font-weight-bold" href="#" role="button">
+                            menu
+                            <span class="fas fa-bars"></span>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-4 visible-md visible-lg">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a class="nav-text nav-link text-uppercase" href="#">portfolio</a>
@@ -35,7 +42,7 @@
             <div class="main-bg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-lg-offset-3">
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
                             <img id="avatar" src="img/avatar.svg" alt="avatar">
                         </div>
                     </div>
@@ -46,7 +53,7 @@
                     </div>
                     <div class="row">
                         <div id="star-section" class="col-lg-4 col-lg-offset-4">
-                            <div id="star-line-wrapper">
+                            <div class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">
                                 <div class="padding-line">
                                     <div class="line"></div>
                                 </div>
