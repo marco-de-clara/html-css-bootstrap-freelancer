@@ -19,17 +19,16 @@ main {
     background-color: #313e4f;
 }
 
-.main-bg {
-    padding: 100px 0;
-    background-color: #66ba9e;
+.dark-bg {
+    background-color: #1abc9c;
 }
 
 .navbar-brand {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
 }
 
 .btn-stats {
-    background-color: #66ba9e;
+    background-color: #1abc9c;
     padding: 13px;
     border-radius: 13px;
 }
@@ -48,22 +47,22 @@ main {
 }
 
 .nav-text {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
-#avatar {
+.avatar {
     padding-bottom: 50px;
-    width: calc((100% / 12) * 5);
+    width: 25rem;
 }
 
-.monts-main {
+.monts-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     line-height: 4.5rem;
 }
 
-#star-section {
+.star-section {
     padding: 30px 0;
 }
 
@@ -74,13 +73,13 @@ main {
 
 .line {
     margin: 0 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid;
     height: 4px;
     width: 112px;
     border-radius: 5px;
 }
 
-#star {
+.star {
     float: left;
     font-size: 30px;
 }
@@ -90,4 +89,18 @@ main {
     font-weight: 400;
     font-size: 2rem;
     line-height: 2.5rem;
+}
+
+.sections {
+    padding: 100px 0;
+}
+
+.light-bg {
+    color: #2c3e50;
+}
+
+.img-fluid {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 30px;
 }

@@ -13,16 +13,16 @@
         <nav class="navbar navbar-bg navbar-fixed-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-xs-8 col-sm-4 col-md-3">
                         <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
                     </div>
-                    <div class="col-sm-4 col-sm-offset-4 visible-xs visible-sm">
+                    <div class="col-xs-4 col-sm-2 col-sm-offset-6 visible-xs visible-sm">
                         <a class="btn btn-default pull-right btn-stats text-uppercase font-weight-bold" href="#" role="button">
                             menu
                             <span class="fas fa-bars"></span>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-lg-offset-4 visible-md visible-lg">
+                    <div class="col-md-5 col-md-offset-4 visible-md visible-lg">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a class="nav-text nav-link text-uppercase" href="#">portfolio</a>
@@ -38,39 +38,67 @@
                 </div>
             </div>
         </nav>
-        <main>
-            <div class="main-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-                            <img id="avatar" src="img/avatar.svg" alt="avatar">
-                        </div>
+        <main class="sections dark-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <img class="avatar" src="img/avatar.svg" alt="avatar">
                     </div>
-                    <div class="row">
-                        <h1 class="monts-main text-uppercase col-lg-8 col-lg-offset-2">
-                            start bootstrap
-                        </h1>
+                </div>
+                <h1 class="monts-title text-uppercase col-lg-8 col-lg-offset-2">
+                    start bootstrap
+                </h1>
+                <div class="star-section visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">
+                    <div class="padding-line">
+                        <div class="line"></div>
                     </div>
-                    <div class="row">
-                        <div id="star-section" class="col-lg-4 col-lg-offset-4">
-                            <div class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">
-                                <div class="padding-line">
-                                    <div class="line"></div>
-                                </div>
-                                <div id="star" class="fas fa-star"></div>
-                                <div class="padding-line">
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="star fas fa-star"></div>
+                    <div class="padding-line">
+                        <div class="line"></div>
                     </div>
-                    <div class="row">
-                        <p class="lato-text text-capitalize col-lg-6 col-lg-offset-3">
-                            graphic artist - web designer - illustrator
-                        </p>
-                    </div>
+                </div>
+                <div class="row">
+                    <p class="lato-text text-capitalize col-lg-6 col-lg-offset-3">
+                        graphic artist - web designer - illustrator
+                    </p>
                 </div>
             </div>
         </main>
+        <section id="portfolio" class="sections light-bg">
+            <div class="container">
+                <h2 class="monts-title text-uppercase">
+                    portfolio
+                </h2>
+                <div class="star-section visible-xs-inline-block visible-sm-inline-block visible-md-inline-block visible-lg-inline-block">
+                    <div class="padding-line">
+                        <div class="line"></div>
+                    </div>
+                    <div class="star fas fa-star"></div>
+                    <div class="padding-line">
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cabin.png" alt="cabin">
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cake.png" alt="cake">
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/circus.png" alt="circus">
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/game.png" alt="game">
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/safe.png" alt="safe">
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/submarine.png" alt="submarine">
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
