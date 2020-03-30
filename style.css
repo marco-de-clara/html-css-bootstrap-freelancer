@@ -15,8 +15,8 @@ main {
     font-family: 'Lato', sans-serif;
 }
 
-.navbar-bg {
-    background-color: #313e4f;
+.blue-bg {
+    background-color: #2c3e50;
 }
 
 .dark-bg {
@@ -63,6 +63,13 @@ main {
     line-height: 4.5rem;
 }
 
+.monts-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
 .padding-deco {
     padding: 30px 0;
 }
@@ -93,10 +100,10 @@ main {
 }
 
 .sections {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
-.light-bg {
+.light-bg-text {
     color: #2c3e50;
 }
 
@@ -104,6 +111,9 @@ main {
     width: 100%;
     max-width: 400px;
     border-radius: 1rem;
+}
+
+.margin-bot {
     margin-bottom: 30px;
 }
 
@@ -134,4 +144,55 @@ main {
 
 .message-height {
     height: 250px;
+}
+
+.margin-h4 {
+    margin-bottom: 25px;
+}
+
+#info p a {
+    color: #1abc9c;
+}
+
+.btn-media {
+    padding-top: 13px;
+    margin: 0 5px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.btn-media:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #1a252f;
+}
+
+.footer p {
+    padding: 20px 0 10px;
+    font-size: 1.3rem;
+}
+
+.btn-scroll {
+    position: fixed;
+    right: 2rem;
+    bottom:  2rem;
+    z-index: 10;
+}
+
+.btn-scroll a {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    color: #ffffff;
+    font-size: 1.75rem;
+    background-color: rgba(33, 37, 41, 0.5);
+    border-radius: 25%;
+    line-height: 5rem;
 }
