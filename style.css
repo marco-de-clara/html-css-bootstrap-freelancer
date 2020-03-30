@@ -111,3 +111,27 @@ main {
     border: 2px solid;
     padding: 2rem 3rem;
 }
+
+.input-lg {
+    height: 100px;
+}
+
+.border-bot {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #159a80;
+}
+
+.mr-top {
+    margin-top: 20px;
+}
+
+.message-height {
+    height: 250px;
+}
