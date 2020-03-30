@@ -29,6 +29,7 @@ main {
 
 .btn-stats {
     background-color: #1abc9c;
+    color: #ffffff;
     padding: 13px;
     border-radius: 13px;
 }
@@ -62,7 +63,7 @@ main {
     line-height: 4.5rem;
 }
 
-.star-section {
+.padding-deco {
     padding: 30px 0;
 }
 
@@ -101,6 +102,12 @@ main {
 
 .img-fluid {
     width: 100%;
+    max-width: 400px;
     border-radius: 1rem;
     margin-bottom: 30px;
+}
+
+.btn-outline {
+    border: 2px solid;
+    padding: 2rem 3rem;
 }
